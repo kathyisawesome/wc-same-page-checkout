@@ -1,0 +1,30 @@
+{
+	"esversion": 9,
+	"boss": true,
+	"curly": true,
+	"eqeqeq": true,
+	"eqnull": true,
+	"expr": true,
+	"immed": true,
+	"noarg": true,
+	"onevar": true,
+	"quotmark": "single",
+	"trailing": true,
+	"undef": true,
+	"unused": true,
+	"multistr": true,
+
+	"browser": true,
+
+	"globals": {
+		"_": false,
+		"Backbone": false,
+		"jQuery": false,
+		"JSON": false,
+		"wp": false,
+		"wc_mnm_params": false,
+		"wc_mnm_scripts": false,
+		"WC_MNM_ADD_TO_CART_VARIATION_PARAMS": false,
+		"woocommerce_admin_meta_boxes": false
+	}
+}

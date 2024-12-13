@@ -1,0 +1,19 @@
+{
+	"name": "wc-same-page-checkout/add-to-cart-form",
+	"version": "1.0.0",
+	"title": "Same Page Checkout",
+	"description": "Add functionality to WooCommerce's single product block to allow for a same page checkout experience.",
+	"category": "woocommerce",
+	"keywords": [
+		"WooCommerce"
+	],
+	"supports": {
+		"interactivity": true
+	},
+	"textdomain": "wc-same-page-checkout",
+	"apiVersion": 3,
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"editorScript": "file:./index.js",
+	"viewScriptModule": "file:./view.js",
+	"viewStyle": [ "file:./view.css", "wc-same-page-checkout" ]
+}

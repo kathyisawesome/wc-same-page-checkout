@@ -1,0 +1,15 @@
+assets/css/
+assets/dist/
+build/
+build/
+deploy/
+dist/
+languages/
+node_modules/
+vendor/
+assets/js/frontend/*.min.js
+assets/js/admin/*.min.js
+bookmarks.json
+composer.lock
+package-lock.json
+*.bak
